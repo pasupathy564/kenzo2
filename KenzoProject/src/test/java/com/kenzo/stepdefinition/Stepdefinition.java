@@ -67,6 +67,7 @@ public class Stepdefinition extends BaseClass {
 	@When("^User clicks on size xs$")
 	public void user_clicks_on_size_xs() throws Throwable {
 	 clickOnElement(sl.getSize());
+	 clickOnElement(sl.getSizeXS());
 	}
 
 }
